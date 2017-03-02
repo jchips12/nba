@@ -3,13 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 import { NotFoundComponent} from './not-found/not-found.component';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent },
+    { path: 'sign-up', component: SignUpComponent },
     { path: '**', component: NotFoundComponent}
 ];
 

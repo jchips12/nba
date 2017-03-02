@@ -4,13 +4,13 @@ import { appRouter } from './app.router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 import { NotFoundComponent} from './not-found/not-found.component';
 
 
 @NgModule({
     imports: [BrowserModule, appRouter],
-    declarations: [AppComponent, HomeComponent, LoginComponent, RegisterComponent, NotFoundComponent],
+    declarations: [AppComponent, HomeComponent, LoginComponent, SignUpComponent, NotFoundComponent],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
